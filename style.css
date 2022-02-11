@@ -1,0 +1,114 @@
+body {
+    min-width: 400px;
+}
+
+img {
+    width: 17rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.scont {
+    display: inline-block;
+    height: 2.125em;
+    width: 38em;
+    border-radius: 2em;
+    border: 0.01em solid rgb(212, 212, 212);  
+}
+
+/* @media only screen and (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+    .scont {
+        width: 100%;   
+    }
+} */
+
+.scont:hover {
+    box-shadow: 0px 0px 0.09em 0.09em rgb(214, 214, 214);
+}
+
+.sbox {
+    height: 2.22em;
+    border: 0px solid transparent;
+    margin-left: 0.6em;
+    padding-right: 0.6em;
+    width: 87%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.init-svg { 
+    display: block;
+    height: 103%;
+    width: 1.3em;
+    float: left;
+    margin-left: 0.6em;
+}
+
+.btns {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    height: 2.12em;
+}
+
+.btns > *{
+    margin: 0em 0.5em;
+    min-width: 54px;
+    font-size: 0.9375em;
+    padding: 0.5em 1em;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    border-radius: 0.3em;
+}
+
+.btns > *:hover {
+    box-shadow: 0px 0px 0.09em 0.09em rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.bar a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bar a:hover {
+    text-decoration: underline;
+}
+
+span {
+    position: relative;
+    left: 5.7em;
+    bottom: 1.1em;
+    font-size: 1.175em;
+    color: #4285f4;
+    margin-bottom: 10px;
+}
+
+.click-svg {
+    display: block;
+    height: 103%;
+    width: 21px;
+    float: right;
+    margin-right: 0.6em;
+    fill: #4285f4;
+}

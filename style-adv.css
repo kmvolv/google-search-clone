@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    min-width: 400px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0.5em;
+    padding: 18px 10px;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.bar a{
+    float: right;
+    text-align: center;
+    padding: 24px 18px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bar a:hover {
+    text-decoration: underline;
+}
+
+.blu {
+    color: #4285F4;
+}
+
+.red {
+    color: #DB4437;
+}
+
+.yel {
+    color: #F4B400;
+}
+
+.gre {
+    color: #0F9D58;
+}
+
+.heading {
+    font-size: 1.3em;
+    color: #e21704;
+    margin-left: 2em;
+}
+
+.head-cont{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.tops {
+    margin-bottom: 1.5em;
+}
+
+.left-title , .right-title {
+    font-size: 115%;
+}
+
+.right-title{
+    font-weight: bolder;
+    font-family: arial,sans-serif;
+    color: #777;
+    font-size: 100%;
+    position: absolute;
+    left: 54%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .right-text, .right-title {
+        display: none;
+    }
+    .form-elem input[type="text"] {
+        width: 100%;
+    }
+}
+
+.form-style{
+    margin-left: 1em;
+    margin-top: 3em;
+    padding-left: 1.3em;
+}
+
+.whitespace {
+    display: inline-block;
+    width: 50%;
+}
+
+.right-text {
+    position: absolute;
+    left: 55%;
+    top: 15%;
+}
+
+.form-elem {
+    margin-top: 17px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.form-elem input[type=text] {
+    width: 38%;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 25px;
+}
+
+.phrase {
+    display: inline-block;
+    width: 220px;
+    font-size: 100%;
+}
+
+.desc {
+    font-family: monospace;
+}
+
+.sub-btn {
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+    color: white;
+    font-size: 11px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    width: 123px;
+    font-weight: bold;
+    float: right;
+}
+
+.btn-cont {
+    display: inline-block;
+    width: 39%;
+}

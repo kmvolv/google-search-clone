@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search Clone</title>
+    <link rel="stylesheet" href="style-adv.css"> 
+    <link rel="stylesheet" href="https://egkoppel.github.io/product-sans/google-fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="bar">
+        <a href="index-imgs.html">Images</a>
+        <a href="index.html">Google</a>
+    </div>
+    <div class="head-cont">
+        <div id="product-sans" class="title"><span class="blu">G</span><span class="red">o</span><span class="yel">o</span><span class="blu">g</span><span class="gre">l</span><span class="red">e</span></div>
+        <span class="heading">Advanced Search</span>
+    </div>
+    
+    <form class="form-style" action="https://www.google.com/search" method="get">
+
+        <div class="tops">
+            <label class="left-title">Find pages with...</label>
+            <div class="whitespace"></div>
+            <label class="right-title">To do this in the search box.</label>
+        </div>
+
+        <div class="form-elem">
+            <label class="form-label"><span class="phrase">all these words:</span>
+            <input type="text" name="as_q"></label>
+            <label class="right-text">Type the important words: <span class="desc">tri-colour rat terrier</span></label>
+        </div>
+
+        <div class="form-elem">
+            <label class="form-label"><span class="phrase">this exact word or phrase:</span>
+            <input type="text" name="as_epq"></label>
+            <label class="right-text">Put exact words in quotes: <span class="desc">"rat terrier"</span></label>
+        </div>
+
+        <div class="form-elem">
+            <label class="form-label"><span class="phrase">any of these words:</span>
+            <input type="text" name="as_oq"></label>
+            <label class="right-text">Type <span class="desc">OR</span> between all the words you want: <span class="desc">miniature OR standard</span></label>
+        </div>
+
+        <div class="form-elem">
+            <label class="form-label"><span class="phrase">none of these words:</span>
+            <input type="text" name="as_eq"></label>
+            <label class="right-text">Put a minus sign just before words that you don't want: <span class="desc">-rodent, -"Jack Russell"</span></label>
+        </div>
+        
+        <div class="form-elem">
+            <label class="form-label"><span class="phrase"></span></label>
+            <label class="right-text"></label>
+            <span class="btn-cont"><input class="sub-btn" type="submit" value="Advanced Search"></span>
+        </div>  
+    </form>
+    
+</body>
+</html>
